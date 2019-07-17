@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background-color: lightgrey;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+  font-size: 40px;
+}
+
+input {
+  padding: 3px;
+  font-size: 18px;
+  border: 1px solid yellow;
+}
+
+.user {
+  margin: 20px;
+  display: flex;
+  text-align: center;
+}
+.user a{
+    text-decoration: none;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
